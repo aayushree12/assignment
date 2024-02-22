@@ -17,5 +17,5 @@ com/ttek/carparkfinder/response/CarParkResponse.class
 com/ttek/carparkfinder/scheduler/ParkingLotStatusScheduler.class
 com/ttek/carparkfinder/dto/CarParkInfoDto.class
 com/ttek/carparkfinder/CarParkFinderApplication.class
-com/ttek/carparkfinder/gps/SVY21.class
 com/ttek/carparkfinder/exception/MissingCoordinatesException.class
+com/ttek/carparkfinder/gps/SVY21.class

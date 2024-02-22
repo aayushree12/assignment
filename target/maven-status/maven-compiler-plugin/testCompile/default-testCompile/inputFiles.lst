@@ -1,1 +1,11 @@
-/home/root55/Desktop/car-park-finder/src/test/java/com/ttek/carparkfinder/CarParkInfoDtoFinderApplicationTests.java
+/var/tmp/Roost/RoostGPT/Aayushree-Test/2f5a94fa-470b-430c-bff9-046516a38acf/assignment/src/test/java/com/ttek/carparkfinder/exception/GlobalExceptionHandler_handleCustomException_d1aaaa0832_Test.java
+/var/tmp/Roost/RoostGPT/Aayushree-Test/2f5a94fa-470b-430c-bff9-046516a38acf/assignment/src/test/java/com/ttek/carparkfinder/gps/LatLonCoordinate_getLatitude_81badd7532_Test.java
+/var/tmp/Roost/RoostGPT/Aayushree-Test/2f5a94fa-470b-430c-bff9-046516a38acf/assignment/src/test/java/com/ttek/carparkfinder/gps/LatLonCoordinate_LatLonCoordinate_ac93e9daca_Test.java
+/var/tmp/Roost/RoostGPT/Aayushree-Test/2f5a94fa-470b-430c-bff9-046516a38acf/assignment/src/test/java/com/ttek/carparkfinder/gps/LatLonCoordinate_toString_ceffa8036e_Test.java
+/var/tmp/Roost/RoostGPT/Aayushree-Test/2f5a94fa-470b-430c-bff9-046516a38acf/assignment/src/test/java/com/ttek/carparkfinder/exception/MissingCoordinatesException_getStatus_84acf16232_Test.java
+/var/tmp/Roost/RoostGPT/Aayushree-Test/2f5a94fa-470b-430c-bff9-046516a38acf/assignment/src/test/java/com/ttek/carparkfinder/gps/LatLonCoordinate_asSVY21_7b038d1317_Test.java
+/var/tmp/Roost/RoostGPT/Aayushree-Test/2f5a94fa-470b-430c-bff9-046516a38acf/assignment/src/test/java/com/ttek/carparkfinder/gps/LatLonCoordinate_equals_039c844c47_Test.java
+/var/tmp/Roost/RoostGPT/Aayushree-Test/2f5a94fa-470b-430c-bff9-046516a38acf/assignment/src/test/java/com/ttek/carparkfinder/gps/SVY21_computeLatLon_9f1c7f7262_Test.java
+/var/tmp/Roost/RoostGPT/Aayushree-Test/2f5a94fa-470b-430c-bff9-046516a38acf/assignment/src/test/java/com/ttek/carparkfinder/CarParkInfoDtoFinderApplicationTests.java
+/var/tmp/Roost/RoostGPT/Aayushree-Test/2f5a94fa-470b-430c-bff9-046516a38acf/assignment/src/test/java/com/ttek/carparkfinder/exception/MissingCoordinatesException_MissingCoordinatesException_f6445215d9_Test.java
+/var/tmp/Roost/RoostGPT/Aayushree-Test/2f5a94fa-470b-430c-bff9-046516a38acf/assignment/src/test/java/com/ttek/carparkfinder/gps/LatLonCoordinate_getLongitude_a3dd19bd3a_Test.java
