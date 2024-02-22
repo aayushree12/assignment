@@ -1,0 +1,27 @@
+version: "3.3"
+
+services:
+
+  car-park-postgres-service:
+    container_name: car-park-postgres-service
+    image: postgres:15-alpine
+    ports:
+      - "5435:5432"
+    environment:
+      - POSTGRES_PASSWORD=password
+    volumes:
+      - ./src/main/resources/init.sql:/docker-entrypoint-initdb.d/create_tables.sql
+
+  car-parking-service:
+    container_name: car-parking-service
+    image: car-parking-service:v1
+    build:
+      context: .
+    depends_on:
+      - car-park-postgres-service
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://car-park-postgres-service:5432/car-parking-system
+      - SPRING_DATASOURCE_USERNAME=postgres
+      - SPRING_DATASOURCE_PASSWORD=password
+    ports:
+      - "8080:8080"

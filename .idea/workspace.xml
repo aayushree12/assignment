@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e784824d-8043-4d2f-a6cf-3a3d78797d01" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/car-park-finder/src/main/java/com/ttek/carparkfinder/dto/CarParkDataDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-park-finder/src/main/java/com/ttek/carparkfinder/dto/CarParkInfoDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-park-finder/src/main/java/com/ttek/carparkfinder/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-park-finder/src/main/java/com/ttek/carparkfinder/exception/MissingCoordinatesException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-park-finder/src/main/java/com/ttek/carparkfinder/model/ParkingLotDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-park-finder/src/main/java/com/ttek/carparkfinder/repository/ParkingLotDetailsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-park-finder/src/main/java/com/ttek/carparkfinder/repository/ParkingLotStatusRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-park-finder/src/main/java/com/ttek/carparkfinder/scheduler/ParkingLotStatusScheduler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-park-finder/src/main/java/com/ttek/carparkfinder/service/CarParkService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car-park-finder/src/main/java/com/ttek/carparkfinder/util/Helper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-park-finder" beforeDir="false" afterPath="$PROJECT_DIR$/car-park-finder" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-park-finder/src/main/java/com/ttek/carparkfinder/config/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-park-finder/src/main/java/com/ttek/carparkfinder/constants/LotType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-park-finder/src/main/java/com/ttek/carparkfinder/controller/CarParkController.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-park-finder/src/main/java/com/ttek/carparkfinder/controller/CarParkController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-park-finder/src/main/java/com/ttek/carparkfinder/dto/CarParkDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-park-finder/src/main/java/com/ttek/carparkfinder/dto/CarParkDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-park-finder/src/main/java/com/ttek/carparkfinder/gps/LatLonCoordinate.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-park-finder/src/main/java/com/ttek/carparkfinder/gps/LatLonCoordinate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-park-finder/src/main/java/com/ttek/carparkfinder/gps/SVY21.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-park-finder/src/main/java/com/ttek/carparkfinder/gps/SVY21.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-park-finder/src/main/java/com/ttek/carparkfinder/gps/SVY21Coordinate.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-park-finder/src/main/java/com/ttek/carparkfinder/gps/SVY21Coordinate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-park-finder/src/main/java/com/ttek/carparkfinder/loader/CarParkInfoLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-park-finder/src/main/java/com/ttek/carparkfinder/loader/CarParkInfoLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-park-finder/src/main/java/com/ttek/carparkfinder/model/CarParkAvailability.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-park-finder/src/main/java/com/ttek/carparkfinder/model/ParkingLotStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-park-finder/src/main/java/com/ttek/carparkfinder/model/CarParkDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-park-finder/src/main/java/com/ttek/carparkfinder/repository/CarParkAvailabilityRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-park-finder/src/main/java/com/ttek/carparkfinder/repository/CarParkDetailsRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-park-finder/src/main/java/com/ttek/carparkfinder/response/CarParkAvailabilityApiResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-park-finder/src/main/java/com/ttek/carparkfinder/dto/CarParkAvailabilityApiResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-park-finder/src/main/java/com/ttek/carparkfinder/response/CarParkAvailabilityItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-park-finder/src/main/java/com/ttek/carparkfinder/dto/CarParkAvailabilityItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-park-finder/src/main/java/com/ttek/carparkfinder/response/CarParkData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-park-finder/src/main/java/com/ttek/carparkfinder/response/CarParkDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-park-finder/src/main/java/com/ttek/carparkfinder/response/CarParkResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-park-finder/src/main/java/com/ttek/carparkfinder/response/CarParkResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-park-finder/src/main/java/com/ttek/carparkfinder/scheduler/CarParkAvailabilityScheduler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-park-finder/src/main/java/com/ttek/carparkfinder/service/CarParkAvailabilityService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-park-finder/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/car-park-finder/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-park-finder/src/test/java/com/ttek/carparkfinder/CarParkDetailsFinderApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-park-finder/src/test/java/com/ttek/carparkfinder/CarParkInfoDtoFinderApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/car-park-finder" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2cjtMGWVwBK9DBiqZC1ahbbhb9l" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/root55/assignment"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e784824d-8043-4d2f-a6cf-3a3d78797d01" name="Changes" comment="" />
+      <created>1708636766027</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708636766027</updated>
+    </task>
+    <servers />
+  </component>
+</project>
